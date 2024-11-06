@@ -9,6 +9,8 @@ stateManager = StateMachine()
 message = "Resource"
 gameFont = {
         'small': pygame.font.Font('./fonts/font.ttf', 24),
+        'mediumsmall': pygame.font.Font('./fonts/font.ttf', 30),
+
         'medium': pygame.font.Font('./fonts/font.ttf', 48),
         'large': pygame.font.Font('./fonts/font.ttf', 96)
 }

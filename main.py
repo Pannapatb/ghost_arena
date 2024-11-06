@@ -32,6 +32,7 @@ class GameMain:
             'start': StartState(),
             'play': Play(),
             'save': SaveSelect(),
+            'tutorial':TutorialState(),
             'gameover': GameOver()
 
             # 'serve': ServeState(),

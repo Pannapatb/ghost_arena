@@ -33,7 +33,7 @@ class SaveSelect(BaseState):
         if self.showNum:
             work = gameFont['medium'].render("Yeah",False,t_start_color)
             screen.blit(work, (0,0))
-        t_start = gameFont['medium'].render("NEXT", False, t_start_color)
+        t_start = gameFont['medium'].render("NEXTdd", False, t_start_color)
         rect = t_start.get_rect(center=(WIDTH / 2, HEIGHT / 2 + 210))
         screen.blit(t_start, rect)
         t_highscore = gameFont['medium'].render("BACK", False, t_highscore_color)
